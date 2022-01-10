@@ -5,5 +5,24 @@
 ``test``
 ```test```
 ``` java
-![image](https://user-images.githubusercontent.com/97310355/148825533-aaed01c7-38ae-4d7e-8fdd-043112d27dd5.png)
-```
+
+package com.Afrey;
+
+import java.util.Scanner;
+
+public class Luckynumber {
+    public static void main(String[] args){
+        luck();
+    }
+    public static void luck() {
+
+        for(int i = 1;i<=5 ;i++){
+            for(int j=1;j<=5;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+    }
+   ```
+   
